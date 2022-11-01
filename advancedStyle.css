@@ -1,0 +1,76 @@
+.container{
+    height: 95vh;
+    font-family: sans-serif;
+}
+
+.heading1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.grid {
+    background-color: white;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 450px;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.button {
+    background-color: #4c8efb;
+    color:white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #3079ed;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.heading2{
+    margin: 20px;
+    padding: 10px;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.btn-div{
+    text-align: right;
+}
